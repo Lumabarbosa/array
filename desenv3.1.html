@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>array</title>
+</head>
+<body>
+    <script>
+        listaNome = [] 
+        listaIdade = []
+        listaCorFav = []
+        
+        for(var x=0;x<2;x++){
+            let nome = prompt('Digite seu nome: ')
+            listaNome[x] = nome;
+            let idade = prompt('Digite sua idade: ')
+            listaIdade[x] = idade;
+            let corFav = prompt('Digite sua cor favorita: ')
+            listaCorFav[x] = corFav;
+        }
+
+        //lista nome
+        console.log('-------LISTA NOMES-------')
+        for(var x=0;x<2;x++){
+            console.log(listaNome[x]);
+        }
+        //lista idade
+        console.log('-------LISTA IDADES-------')
+        for(var x=0;x<2;x++){
+            console.log(listaIdade[x]);
+        }
+        // lista cor favorita
+        console.log('-------LISTA COR FAVORITA-------')
+        for(var x=0;x<2;x++){
+            console.log(listaCorFav[x]);
+        }
+
+    </script>
+</body>
+</html>
